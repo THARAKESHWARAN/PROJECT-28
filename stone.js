@@ -9,7 +9,7 @@ class Stone {
         }
         this.body = Bodies.circle(x, y, 20, options);
         console.log(this.body.circleRadius);
-        this.image = loadImage("./img/stone.png");
+        this.image = loadImage("img/stone.png");
         World.add(world, this.body);
     }
 
